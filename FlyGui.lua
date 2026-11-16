@@ -222,7 +222,7 @@ end
 onof.BackgroundColor3 = Color3.fromRGB(245, 245, 245)
 onof.TextColor3 = Color3.fromRGB(15, 15, 15)
 
--- Nút ✧ luôn tồn tại khi menu chính được ẩn.
+-- Nút A luôn tồn tại khi menu chính được ẩn.
 local reopenToggle = Instance.new("TextButton")
 reopenToggle.Name = "ReopenToggle"
 reopenToggle.Parent = main
@@ -230,7 +230,7 @@ reopenToggle.Size = UDim2.new(0, 46, 0, 46)
 reopenToggle.Position = UDim2.new(0.06, 0, 0.68, 0)
 reopenToggle.BackgroundColor3 = Color3.fromRGB(15, 15, 18)
 reopenToggle.BorderSizePixel = 0
-reopenToggle.Text = "✧"
+reopenToggle.Text = "A"
 reopenToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 reopenToggle.TextSize = 29
 reopenToggle.Font = Enum.Font.GothamBold
@@ -250,8 +250,8 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
-	Title = "FLY GUI V3";
-	Text = "BY XNEO";
+	Title = "FLYING";
+	Text = "BY Anhlongabcxyz";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
 
@@ -561,7 +561,7 @@ mine.MouseButton1Down:connect(function()
 	end
 end)
 
--- Nút X chỉ ẩn menu; nút ✧ nổi sẽ mở lại menu.
+-- Nút X chỉ ẩn menu; nút A nổi sẽ mở lại menu.
 closebutton.MouseButton1Click:Connect(function()
 	Frame.Visible = false
 	reopenToggle.Visible = true
